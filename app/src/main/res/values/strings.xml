@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kenda App</string>
+
+    <string name="slide_1_title">Cari Kesenian Kesukaanmu Disini.</string>
+    <string name="slide_1_desc">Kesenian tradisional dan modern bisa kamu cari disini.</string>
+
+    <string name="slide_2_title">Meriahkan Acara Kesukaanmu.</string>
+    <string name="slide_2_desc">Undang kami ke acaramu, kenda siap menyiapkan kesenian kesukaanmu.</string>
+
+    <string name="slide_3_title">Ada Berbagai Tipe Kesenian Tradisi.</string>
+    <string name="slide_3_desc">Kami menyediakan berbagai tipe kesenian baik tradisional maupun modern.</string>
+
+    <string name="Login_title">Mari! Lestarikan Budaya Tradisional Indonesia.</string>
+    <string name="register_title">Kenali Kesenian Tradisional Indonesia!</string>
+
+    <string name="btn_login">Masuk</string>
+    <string name="login_facebook">Masuk dengan Facebook</string>
+    <string name="login_google">Masuk dengan Google</string>
+    <string name="password">Password</string>
+    <string name="username_email">Username or Email</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar_dulu">Daftar dulu kuy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

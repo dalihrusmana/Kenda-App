@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_fix"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_title"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold"
+            android:textColor="#07062D"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silahkan daftarkan dulu akun Kamu"
+            android:textSize="@dimen/slide_desc"
+            android:textColor="#07062D"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:met_floatingLabel="highlight"
+            android:hint="Nama Kamu"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_user_circle_1"
+            android:drawablePadding="12dp"
+            android:textSize="14sp"
+            android:textColor="#07062D"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:met_floatingLabel="highlight"
+            android:hint="Email Kamu"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_envelope_1"
+            android:drawablePadding="12dp"
+            android:textSize="14sp"
+            android:textColor="#07062D"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:met_floatingLabel="highlight"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_key_1"
+            android:drawablePadding="12dp"
+            android:textSize="14sp"
+            android:textColor="#07062D"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password_verif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:met_floatingLabel="highlight"
+            android:hint="Ulangi Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_key_1"
+            android:drawablePadding="12dp"
+            android:textSize="14sp"
+            android:textColor="#07062D"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_custom_primary"
+            android:text="Daftar"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:paddingRight="22dp"
+            android:paddingLeft="22dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/btn_masuk_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_login_facebook"
+            android:drawableLeft="@drawable/ic_facebook_1"
+            android:text="Daftar dengan Facebook"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#3B5998"
+            android:paddingRight="22dp"
+            android:paddingLeft="22dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/btn_masuk_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_login_google"
+            android:drawableLeft="@drawable/ic_google_1"
+            android:text="Daftar dengan Google"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#DB4437"
+            android:paddingRight="22dp"
+            android:paddingLeft="22dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun?"
+                android:textColor="#6A6A81"/>
+
+            <TextView
+                android:id="@+id/btn_masuk_langsung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masuk Langsung"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#07062D" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
